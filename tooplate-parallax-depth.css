@@ -1573,10 +1573,13 @@ html {
 
 /* Contact Section */
 .contact-content {
-	display: grid;
+	/* display: grid; */
+	display: flex;
 	grid-template-columns: 1fr 1fr;
 	gap: 50px;
 	margin: 50px 0;
+	justify-content: center;
+	align-items: center;
 }
 
 .contact-form {
